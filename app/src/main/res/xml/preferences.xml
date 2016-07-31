@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <ListPreference
+        app:showAsAction="always"
+        android:defaultValue="@string/default_endpoint"
+        android:entries="@array/movie_endpoints_readable"
+        android:entryValues="@array/movie_endpoints_values"
+        android:key="@string/key_movie_endpoints"
+        android:title="@string/title_sort_by" />
+</PreferenceScreen>

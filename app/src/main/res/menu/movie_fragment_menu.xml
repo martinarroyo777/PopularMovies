@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="a.com.example.android.popularmovies.MovieFragment"
+    >
+
+<item
+    android:title="@string/sort_most_popular"
+    app:showAsAction="never"
+    android:id="@+id/most_popular"/>
+
+<item
+    android:title="@string/sort_top_rated"
+    app:showAsAction="never"
+    android:id="@+id/top_rated"/>
+
+</menu>
